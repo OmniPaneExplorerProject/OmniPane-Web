@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エディション - OmniPane Explorer</title>
+    <meta name="description" content="OmniPane Explorer の Community / Standard / Professional エディション比較（ドラフト）">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .hero-pattern {
+            background-color: #0f172a;
+            background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
+
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2 hover:opacity-90 transition">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">O</div>
+                <span class="font-bold text-xl tracking-tight">OmniPane Explorer</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="index.html#features" class="hover:text-blue-600 transition">特徴</a>
+                <a href="editions.html" class="text-blue-600 font-semibold">エディション</a>
+                <a href="https://github.com/omnipaneexplorerproject/OmniPaneExplorer/issues" target="_blank" rel="noopener" class="hover:text-blue-600 transition">サポート</a>
+            </div>
+            <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition">無料で入手</a>
+        </div>
+    </nav>
+
+    <header class="gradient-bg text-white py-16 px-4 hero-pattern">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-sm uppercase tracking-widest text-blue-300 mb-3">Editions</p>
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4">用途に合わせて選べる<br class="hidden sm:inline">3つのエディション</h1>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto">
+                無料の Community から始め、作業規模が大きくなるほど Standard・Professional でマルチペインとメタデータ管理をフル活用できます。
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-16">
+        <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900">
+            <strong>ドラフト:</strong> 機能の有無・価格・販売形態はローンチ前の検討内容です。Microsoft Store の購入ページに掲載される内容が最終版となります。
+        </div>
+
+        <!-- Pricing cards -->
+        <div class="grid lg:grid-cols-3 gap-8 mb-20">
+            <article class="bg-white rounded-2xl border border-slate-200 shadow-sm p-8 flex flex-col">
+                <p class="text-sm font-semibold text-slate-500 uppercase tracking-wide">Community</p>
+                <h2 class="text-2xl font-bold mt-2 mb-1">無料</h2>
+                <p class="text-slate-600 text-sm mb-6">大規模フォルダも軽快に扱える、高機能ファイラーの入口。</p>
+                <ul class="space-y-3 text-sm text-slate-700 flex-1 mb-8">
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 高速一覧（仮想リスト・非同期スキャン）</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 基本ファイル操作・D&amp;D・UNC 対応</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 名前・ワイルドカード・正規表現フィルタ</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> .ope による基本状態の保存</li>
+                    <li class="flex gap-2"><span class="text-slate-400">—</span> レイアウトは最大 2 ペイン相当</li>
+                </ul>
+                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" class="block text-center py-3 rounded-xl border-2 border-slate-300 font-bold hover:bg-slate-50 transition">無料で入手</a>
+            </article>
+
+            <article class="bg-white rounded-2xl border-2 border-blue-500 shadow-lg p-8 flex flex-col relative">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ</span>
+                <p class="text-sm font-semibold text-blue-600 uppercase tracking-wide">Standard</p>
+                <h2 class="text-2xl font-bold mt-2 mb-1">サブスクリプション</h2>
+                <p class="text-slate-500 text-sm mb-1">月額 500〜980 円 / 年額 5,000〜9,800 円（税別・目安）</p>
+                <p class="text-slate-600 text-sm mb-6">4 ペインと統合タブで、開く・探す・並べるを 1 画面に。</p>
+                <ul class="space-y-3 text-sm text-slate-700 flex-1 mb-8">
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> Community のすべて</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> <strong>最大 4 分割</strong>・12 種レイアウト</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 複数プロファイル・配下検索</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> ランチャー・保存済みペイン</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> ターミナル / Web / エディタタブ</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> タグ・評価・ワークフロー・PathFollow</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 一括置換（通常）・プロファイル複製</li>
+                </ul>
+                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" class="block text-center py-3 rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition">Store で確認</a>
+            </article>
+
+            <article class="bg-white rounded-2xl border border-slate-200 shadow-sm p-8 flex flex-col">
+                <p class="text-sm font-semibold text-purple-600 uppercase tracking-wide">Professional</p>
+                <h2 class="text-2xl font-bold mt-2 mb-1">サブスクリプション</h2>
+                <p class="text-slate-500 text-sm mb-1">月額 980〜1,980 円 / 年額 9,800〜19,800 円（税別・目安）</p>
+                <p class="text-slate-600 text-sm mb-6">作業環境を資産として残す、業務・上級者向け。</p>
+                <ul class="space-y-3 text-sm text-slate-700 flex-1 mb-8">
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> Standard のすべて</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 一括置換（<strong>正規表現</strong>）</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> SharePoint 連携（予定）</li>
+                    <li class="flex gap-2"><span class="text-emerald-600">✓</span> 削除禁止・表示除外など高度な保護</li>
+                </ul>
+                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" class="block text-center py-3 rounded-xl border-2 border-purple-300 text-purple-800 font-bold hover:bg-purple-50 transition">Store で確認</a>
+            </article>
+        </div>
+
+        <!-- Comparison table -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-2 text-center">機能比較（抜粋）</h2>
+            <p class="text-center text-slate-600 text-sm mb-8">主要な差分のみ掲載しています。詳細はアプリ内ヘルプおよび今後の正式ドキュメントをご参照ください。</p>
+            <div class="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+                <table class="w-full text-sm text-left min-w-[640px]">
+                    <thead class="bg-slate-100 text-slate-700">
+                        <tr>
+                            <th class="px-5 py-4 font-semibold w-2/5">機能</th>
+                            <th class="px-4 py-4 text-center font-semibold">Community</th>
+                            <th class="px-4 py-4 text-center font-semibold text-blue-700">Standard</th>
+                            <th class="px-4 py-4 text-center font-semibold text-purple-700">Professional</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        <tr>
+                            <td class="px-5 py-3">マルチペイン（最大 4 分割・全レイアウト）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">2 ペイン相当</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="px-5 py-3">複数プロファイル・自動保存</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-3">配下検索（再帰）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="px-5 py-3">タグ・評価・ワークフロー・メモ</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-3">統合タブ（cmd / PS / WebView2 / エディタ）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="px-5 py-3">ランチャー・保存済みペイン</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-3">PathFollow（リネーム・移動の参照追従）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="px-5 py-3">一括置換（通常文字列）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-3">一括置換（正規表現）</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="px-5 py-3">プロファイル複製ウィザード</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-3">SharePoint 連携</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-slate-400">—</td>
+                            <td class="px-4 py-3 text-center text-emerald-600 font-bold">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="max-w-3xl mx-auto space-y-6">
+            <h2 class="text-2xl font-bold text-center mb-8">よくある質問</h2>
+            <details class="bg-white rounded-xl border border-slate-200 p-5 group">
+                <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                    Community から有料版へはどうやって移行しますか？
+                    <span class="text-slate-400 group-open:rotate-180 transition">▼</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">Microsoft Store から Standard または Professional のサブスクリプションを購入すると、アプリ内のライセンスが有効化されます（実装・販売開始時点の手順に準拠）。既存の .ope やローカルデータは端末に残ります。</p>
+            </details>
+            <details class="bg-white rounded-xl border border-slate-200 p-5 group">
+                <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                    データはクラウドに送信されますか？
+                    <span class="text-slate-400 group-open:rotate-180 transition">▼</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">タグ・メモ・設定などは端末内（およびご指定の .ope）に保存されます。個人情報の収集方針は <a href="privacy.html" class="text-blue-600 hover:underline">プライバシーポリシー</a> をご確認ください。</p>
+            </details>
+            <details class="bg-white rounded-xl border border-slate-200 p-5 group">
+                <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                    価格はいつ確定しますか？
+                    <span class="text-slate-400 group-open:rotate-180 transition">▼</span>
+                </summary>
+                <p class="mt-3 text-sm text-slate-600">本ページの価格帯は社内検討用のレンジです。地域・税制・Store のポリシーに合わせて、販売開始時に Microsoft Store 上の表示が正式価格となります。</p>
+            </details>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-16 px-4 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
+            <div>
+                <p class="font-bold text-white mb-2">OmniPane Explorer</p>
+                <p class="text-sm">Created with Passion for Productivity.</p>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-end gap-6 text-sm">
+                <a href="index.html" class="hover:text-white transition underline decoration-slate-700">トップページ</a>
+                <a href="privacy.html" class="hover:text-white transition underline decoration-slate-700">プライバシーポリシー</a>
+                <a href="https://github.com/omnipaneexplorerproject/OmniPaneExplorer/issues" class="hover:text-white transition underline decoration-slate-700">不具合報告 (GitHub)</a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-xs">
+            &copy; 2026 OmniPane Explorer Project.
+        </div>
+    </footer>
+
+</body>
+</html>
