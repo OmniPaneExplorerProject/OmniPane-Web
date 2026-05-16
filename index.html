@@ -1,200 +1,107 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OmniPaneExplorer Privacy Policy / プライバシーポリシー</title>
-  <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f3f7fb;
-      --surface: #ffffff;
-      --text: #1b2430;
-      --muted: #4e5d6c;
-      --accent: #1f6feb;
-      --border: #d8e0ea;
-      --shadow: 0 10px 30px rgba(10, 31, 68, 0.08);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f1722;
-        --surface: #152033;
-        --text: #e6edf4;
-        --muted: #a8b3c1;
-        --accent: #66a8ff;
-        --border: #2a3950;
-        --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-      }
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: "Segoe UI", "Noto Sans JP", sans-serif;
-      line-height: 1.75;
-      background: linear-gradient(180deg, var(--bg) 0%, #eaf1f9 100%);
-      color: var(--text);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: linear-gradient(180deg, #0b121d 0%, var(--bg) 100%);
-      }
-    }
-
-    .container {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 32px 20px 48px;
-    }
-
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      box-shadow: var(--shadow);
-      padding: 28px;
-    }
-
-    h1, h2 {
-      line-height: 1.35;
-      margin-top: 0;
-    }
-
-    h1 {
-      font-size: clamp(1.7rem, 2.8vw, 2.2rem);
-      margin-bottom: 8px;
-    }
-
-    h2 {
-      font-size: clamp(1.15rem, 2vw, 1.35rem);
-      margin-top: 24px;
-      margin-bottom: 8px;
-      color: var(--accent);
-    }
-
-    p, li {
-      color: var(--text);
-      margin-top: 0;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-bottom: 18px;
-    }
-
-    .grid {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      margin-top: 16px;
-    }
-
-    .section {
-      padding: 18px;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: color-mix(in srgb, var(--surface) 92%, var(--accent) 8%);
-    }
-
-    ul {
-      padding-left: 20px;
-      margin: 0;
-    }
-
-    footer {
-      margin-top: 24px;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniPane Explorer - 次世代のマルチペイン・ファイルマネージャー</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .hero-pattern {
+            background-color: #0f172a;
+            background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+    </style>
 </head>
-<body>
-  <main class="container">
-    <article class="card">
-      <h1>OmniPaneExplorer Privacy Policy / プライバシーポリシー</h1>
-      <p class="meta">
-        Brand / 開発者・ブランド名: [OmniPaneExplorer Project]<br />
-        Last updated / 最終更新日: 2026-05-07
-      </p>
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
-      <div class="grid">
-        <section class="section" lang="ja">
-          <h2>日本語</h2>
-          <p>
-            本ポリシーは、Microsoft Store で提供する「OmniPaneExplorer」（仕事効率化 / ユーティリティ）の
-            個人情報およびデータ取り扱いについて説明します。
-          </p>
-          <h2>1. 個人情報の収集</h2>
-          <p>
-            当アプリは、氏名、メールアドレス、位置情報、その他ユーザーを識別できる個人情報を
-            一切収集・送信しません。
-          </p>
-          <h2>2. ファイルアクセスとデータ処理</h2>
-          <p>
-            当アプリは、ユーザーの明示的な許可に基づいて、ローカルファイルおよび SharePoint 上のファイルに
-            アクセスします。複数ペインエクスプローラー、SharePoint 連携、プロファイル複製、
-            正規表現置換などの処理は、すべてユーザーのデバイス上で実行されます。
-            ファイル内容を開発者または外部サーバーへ送信することはありません。
-          </p>
-          <h2>3. 決済情報</h2>
-          <p>
-            Professional 版等のアプリ内購入は、Microsoft Store の決済システムを通じて行われます。
-            開発者は、クレジットカード情報や請求情報を取得・保持しません。
-          </p>
-          <h2>4. 広告</h2>
-          <p>
-            当アプリには、サードパーティ広告 SDK や広告配信機能は含まれていません。
-          </p>
-          <h2>5. お問い合わせ</h2>
-          <p>
-            お問い合わせは Microsoft Store のデベロッパーコンタクト情報を通じて受け付けます。
-          </p>
-        </section>
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">O</div>
+                <span class="font-bold text-xl tracking-tight">OmniPane Explorer</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#features" class="hover:text-blue-600 transition">特徴</a>
+                <a href="#editions" class="hover:text-blue-600 transition">エディション</a>
+                <a href="https://github.com/omnipaneexplorerproject/OmniPaneExplorer/issues" target="_blank" class="hover:text-blue-600 transition">サポート</a>
+            </div>
+            <a href="https://apps.microsoft.com/store/apps" class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition">無料で入手</a>
+        </div>
+    </nav>
 
-        <section class="section" lang="en">
-          <h2>English</h2>
-          <p>
-            This policy explains how "OmniPaneExplorer" (Productivity / Utility), distributed on
-            Microsoft Store, handles personal information and user data.
-          </p>
-          <h2>1. Personal Information Collection</h2>
-          <p>
-            The app does not collect or transmit personal information such as names, email addresses,
-            location data, or any other personally identifiable information.
-          </p>
-          <h2>2. File Access and Data Processing</h2>
-          <p>
-            With explicit user permission, the app accesses local files and SharePoint files.
-            Core features including the multi-pane explorer, SharePoint integration, profile duplication,
-            and regex replacement are processed locally on the user's device.
-            No file content is sent to developer-operated or third-party external servers.
-          </p>
-          <h2>3. Payments</h2>
-          <p>
-            In-app purchases (such as the Professional edition) are processed through the Microsoft Store
-            payment system. The developer does not receive or store credit card details.
-          </p>
-          <h2>4. Advertising</h2>
-          <p>
-            The app does not include third-party advertising.
-          </p>
-          <h2>5. Contact</h2>
-          <p>
-            For inquiries, please use the developer contact channels provided on Microsoft Store.
-          </p>
-        </section>
-      </div>
+    <!-- Hero Section -->
+    <header class="gradient-bg text-white py-20 px-4 hero-pattern">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+                ファイル操作を、<br>もっとスマートに。
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+                OmniPane Explorerは、最大4分割のマルチペインと強力なメタデータ管理を備えた、プロフェッショナルのためのWindowsファイルマネージャーです。
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#" class="w-64 h-20 flex items-center justify-center bg-black border border-slate-700 rounded-xl hover:bg-slate-900 transition">
+                   <span class="text-white text-sm">Download on the <br><strong class="text-lg">Microsoft Store</strong></span>
+                </a>
+            </div>
+        </div>
+    </header>
 
-      <footer>
-        This page is provided for Microsoft Store listing compliance and user transparency.
-      </footer>
-    </article>
-  </main>
+    <!-- Features -->
+    <section id="features" class="py-24 max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">なぜ OmniPane Explorer なのか？</h2>
+            <p class="text-slate-600">標準のエクスプローラーでは満足できないあなたのための、特別な機能。</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-2xl">📑</div>
+                <h3 class="text-xl font-bold mb-3">最大4分割のマルチペイン</h3>
+                <p class="text-slate-600">フォルダ間のファイル移動や比較が劇的に効率化。タブ機能も完備し、作業空間を自由自在にレイアウト可能。</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mb-6 text-2xl">🏷️</div>
+                <h3 class="text-xl font-bold mb-3">強力なメタデータ管理</h3>
+                <p class="text-slate-600">ファイル名に頼らない管理を。独自のタグ、5段階評価、進捗管理など、SQLiteベースの高速検索を提供。</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6 text-2xl">🔒</div>
+                <h3 class="text-xl font-bold mb-3">セーフティ・ロック</h3>
+                <p class="text-slate-600">重要なファイルの「削除禁止」設定。整理作業中のうっかりミスを物理的に防ぎ、安心感を提供します。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual / Screenshot Placeholder -->
+    <section class="py-12 bg-slate-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="bg-slate-300 aspect-video rounded-3xl flex items-center justify-center overflow-hidden border-8 border-white shadow-2xl">
+                <span class="text-slate-500 font-bold">[ここにかっこいいメインスクリーンショットを配置]</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-16 px-4 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
+            <div>
+                <p class="font-bold text-white mb-2">OmniPane Explorer</p>
+                <p class="text-sm">Created with Passion for Productivity.</p>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-end gap-6 text-sm">
+                <a href="privacy.html" class="hover:text-white transition underline decoration-slate-700">プライバシーポリシー</a>
+                <a href="https://github.com/omnipaneexplorerproject/OmniPaneExplorer/issues" class="hover:text-white transition underline decoration-slate-700">不具合報告 (GitHub)</a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-xs">
+            &copy; 2026 OmniPane Explorer Project.
+        </div>
+    </footer>
+
 </body>
 </html>
