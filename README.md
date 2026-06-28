@@ -67,9 +67,9 @@ OmniPane Explorerは、無料の **Community版** から基本機能をお試し
 | リンク | 説明 |
 | :--- | :--- |
 | [Microsoft Store](https://apps.microsoft.com/detail/9pfdz0fn43vx) | 無料版のダウンロード・アップグレード |
-| [エディション比較（Web）](docs/public/editions.html) | プラン別機能の詳細 |
-| [サポート](docs/public/support.html) | お問い合わせ・FAQ |
-| [プライバシーポリシー](docs/public/privacy.html) | 個人情報の取扱い |
+| [エディション比較（Web）](https://omnipaneexplorerproject.github.io/OmniPane-Web/editions.html) | プラン別機能の詳細 |
+| [サポート](https://omnipaneexplorerproject.github.io/OmniPane-Web/support.html) | お問い合わせ・FAQ |
+| [プライバシーポリシー](https://omnipaneexplorerproject.github.io/OmniPane-Web/privacy.html) | 個人情報の取扱い |
 
 ---
 
