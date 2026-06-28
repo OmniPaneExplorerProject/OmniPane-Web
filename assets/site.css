@@ -1,0 +1,15 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+.hero-pattern {
+    background-color: #0f172a;
+    background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+}
+.lang-btn {
+    min-width: 2.25rem;
+}
+.lang-btn.is-active {
+    background-color: #2563eb;
+    color: #fff;
+}
