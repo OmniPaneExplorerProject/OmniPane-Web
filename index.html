@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Windows向け。4ペイン・タブ、タグ・検索、ターミナル統合。Community無料。Microsoft Store。">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="images/icons/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
-    <title>OmniPane Explorer - 次世代のマルチペイン・ファイルマネージャー</title>
+    <title>OmniPane Explorer — エクスプローラー多窓を1画面のワークスペースに</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -30,19 +31,23 @@
                     <button type="button" class="lang-btn px-2.5 py-1 rounded-full is-active" data-set-lang="ja" aria-pressed="true">JA</button>
                     <button type="button" class="lang-btn px-2.5 py-1 rounded-full" data-set-lang="en">EN</button>
                 </div>
-                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" data-i18n-href="links.store" class="bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition whitespace-nowrap" data-i18n="nav.get">無料で入手</a>
+                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx?utm_source=omniweb&amp;utm_medium=nav" data-i18n-href="links.store" class="bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition whitespace-nowrap" data-i18n="nav.get">無料で入手</a>
             </div>
         </div>
     </nav>
 
     <header class="gradient-bg text-white py-20 px-4 hero-pattern">
         <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400" data-i18n-html="index.hero.title">ファイル操作を、<br>もっとスマートに。</h1>
-            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto" data-i18n="index.hero.sub">OmniPane Explorerは、最大4分割のマルチペインと強力なメタデータ管理を備えた、プロフェッショナルのためのWindowsファイルマネージャーです。</p>
-            <div class="flex flex-col sm:flex-row justify-center items-center">
-                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx" data-i18n-href="links.store" class="w-64 h-20 flex flex-col items-center justify-center bg-black border border-slate-700 rounded-xl hover:bg-slate-900 transition text-white text-sm">
+            <p class="text-sm text-emerald-300 mb-4 font-semibold tracking-wide" data-i18n="index.hero.free">Community 版は無料</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400" data-i18n-html="index.hero.title">エクスプローラー多窓を、<br>1画面のワークスペースに。</h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto" data-i18n="index.hero.sub">4ペイン・タブでファイルを並べ、タグ・検索・ターミナルまでまとめて。Windows 専用。</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://www.microsoft.com/ja-jp/p/omnipane-explorer/9pfdz0fn43vx?utm_source=omniweb&amp;utm_medium=hero" data-i18n-href="links.store" class="w-64 h-20 flex flex-col items-center justify-center bg-black border border-slate-700 rounded-xl hover:bg-slate-900 transition text-white text-sm">
                     <span data-i18n="index.store.line1">Microsoft Store で</span>
                     <strong class="text-lg" data-i18n="index.store.line2">ダウンロード</strong>
+                </a>
+                <a href="editions.html" class="w-64 h-20 flex flex-col items-center justify-center bg-white/10 border border-slate-500 rounded-xl hover:bg-white/15 transition text-white text-sm">
+                    <span data-i18n="index.store.editions">エディションを比較</span>
                 </a>
             </div>
         </div>
@@ -50,30 +55,31 @@
 
     <section id="features" class="py-24 max-w-6xl mx-auto px-4">
         <div class="text-center mb-16">
-            <h2 class="text-3xl font-bold mb-4" data-i18n="index.features.title">なぜ OmniPane Explorer なのか？</h2>
-            <p class="text-slate-600" data-i18n="index.features.sub">標準のエクスプローラーでは満足できないあなたのための、特別な機能。</p>
+            <h2 class="text-3xl font-bold mb-4" data-i18n="index.features.title">1画面に、作業をまとめる</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto" data-i18n="index.features.sub">並べる・覚える・まとめる — エクスプローラー多窓で消耗している人のための統合ワークスペース。</p>
         </div>
         <div class="grid md:grid-cols-3 gap-12">
             <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-2xl" aria-hidden="true">📑</div>
-                <h3 class="text-xl font-bold mb-3" data-i18n="index.f1.title">最大4分割のマルチペイン</h3>
-                <p class="text-slate-600" data-i18n="index.f1.body">フォルダ間のファイル移動や比較が劇的に効率化。タブ機能も完備し、作業空間を自由自在にレイアウト可能。</p>
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-2xl" aria-hidden="true">🪟</div>
+                <h3 class="text-xl font-bold mb-3" data-i18n="index.f1.title">並べる — マルチペイン・タブ</h3>
+                <p class="text-slate-600" data-i18n="index.f1.body">最大4分割・タブで、コピー元と先・参照資料をウィンドウ切替なしで同時表示。</p>
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
                 <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mb-6 text-2xl" aria-hidden="true">🏷️</div>
-                <h3 class="text-xl font-bold mb-3" data-i18n="index.f2.title">強力なメタデータ管理</h3>
-                <p class="text-slate-600" data-i18n="index.f2.body">ファイル名に頼らない管理を。独自のタグ、5段階評価、進捗管理など、SQLiteベースの高速検索を提供。</p>
+                <h3 class="text-xl font-bold mb-3" data-i18n="index.f2.title">覚える — タグ・メモ・検索</h3>
+                <p class="text-slate-600" data-i18n="index.f2.body">タグ・メモ・評価で「どの案件か」をファイルに紐づけ。名前・タグ・メモ・Grep を組み合わせた横断検索。</p>
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6 text-2xl" aria-hidden="true">🔒</div>
-                <h3 class="text-xl font-bold mb-3" data-i18n="index.f3.title">セーフティ・ロック</h3>
-                <p class="text-slate-600" data-i18n="index.f3.body">重要なファイルの「削除禁止」設定。整理作業中のうっかりミスを物理的に防ぎ、安心感を提供します。</p>
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-6 text-2xl" aria-hidden="true">📦</div>
+                <h3 class="text-xl font-bold mb-3" data-i18n="index.f3.title">まとめる — 統合タブ・レイアウト保存</h3>
+                <p class="text-slate-600" data-i18n="index.f3.body">ターミナル・プレビュー・編集を同じ画面に。案件ごとの作業レイアウトを保存・復元できます（.ope プロファイル：ペイン配置・タブ・パス）。</p>
             </div>
         </div>
     </section>
 
     <section class="py-12 bg-slate-100">
         <div class="max-w-5xl mx-auto px-4">
+            <p class="text-center text-sm text-slate-500 mb-4" data-i18n="index.screenshot.caption">4ペイン・タブで、コピー・参照・確認を1画面に</p>
             <div class="aspect-video rounded-3xl overflow-hidden bg-slate-200 border-8 border-white shadow-2xl">
                 <img src="images/screenshots/hero-main.webp" width="1920" height="1080" class="w-full h-full object-cover object-top" loading="lazy" decoding="async" alt="OmniPane Explorer の4ペイン画面" data-i18n-alt="index.screenshot.alt">
             </div>
@@ -84,7 +90,7 @@
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
             <div>
                 <p class="font-bold text-white mb-2">OmniPane Explorer</p>
-                <p class="text-sm" data-i18n="footer.tagline">Created with Passion for Productivity.</p>
+                <p class="text-sm" data-i18n="footer.tagline">Windows 専用ファイルマネージャー — Community 版は無料でお試しください。</p>
             </div>
             <div class="flex flex-wrap justify-center md:justify-end gap-6 text-sm">
                 <a href="editions.html" class="hover:text-white transition underline decoration-slate-700" data-i18n="footer.editions">エディション</a>
