@@ -9,6 +9,8 @@
 | `store-ja-05-preview.webp` | ギャラリー — 仕様プレビュー（1706×993） |
 | `store-ja-06-profiles.webp` | ギャラリー — プロファイル切替（1706×993） |
 
+動画は `../video/workflow-demo-ja.mp4` を参照（静止画とは別フォルダ）。
+
 Microsoft Store 向けの元 PNG は Partner Center にそのままアップロードし、Web 用は WebP に変換して本フォルダへ配置します。
 
 ## 再生成
