@@ -23,6 +23,13 @@
 .gallery-screenshot-frame {
     box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.15);
 }
+.demo-video-frame video {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-color: #0f172a;
+}
 .lang-btn {
     min-width: 2.25rem;
 }
