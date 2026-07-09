@@ -20,6 +20,9 @@
     height: auto;
     vertical-align: middle;
 }
+.gallery-screenshot-frame {
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.15);
+}
 .lang-btn {
     min-width: 2.25rem;
 }
