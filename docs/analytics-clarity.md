@@ -7,8 +7,9 @@
 1. https://clarity.microsoft.com/ にサインイン（Microsoft アカウント）
 2. **新しいプロジェクト** → サイト URL: `https://omnipaneexplorerproject.github.io/OmniPane-Web/`
 3. 発行された **Project ID**（英数字）をコピー
-4. `assets/clarity.js` の `var projectId` に貼り付け（現在: `xk08syw62q`）
-5. `OmniPane-Web` を commit & push → GitHub Pages 反映後、Clarity ダッシュボードにデータが入る（数時間以内）
+4. 各 HTML の `<head>` に Microsoft 公式インラインタグを埋め込み済み（Project ID: `xk08syw62q`）
+   - **外部 `clarity.js` だけでは Clarity のセットアップ検出に失敗することがあります**
+5. `OmniPane-Web` を commit & push → 公開サイトを開いて「開始」で検証
 
 ## 計測対象ページ
 
@@ -18,6 +19,14 @@
 - `privacy.html`
 
 `projectId` が空のときはスクリプトは読み込まれません（ローカル `file://` プレビュー用）。
+
+## プロジェクト URL（Clarity 設定）
+
+**設定 → セットアップ** のサイト URL は次と完全一致させてください:
+
+`https://omnipaneexplorerproject.github.io/OmniPane-Web/`
+
+ルートドメインのみ（`/OmniPane-Web/` なし）だと検出・計測が遅れることがあります。
 
 ## プライバシー
 
