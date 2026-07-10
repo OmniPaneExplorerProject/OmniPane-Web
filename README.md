@@ -71,6 +71,10 @@ OmniPane Explorerは、無料の **Community版** から基本機能をお試し
 | [サポート](https://omnipaneexplorerproject.github.io/OmniPane-Web/support.html) | お問い合わせ・FAQ |
 | [プライバシーポリシー](https://omnipaneexplorerproject.github.io/OmniPane-Web/privacy.html) | 個人情報の取扱い |
 
+## サイト分析（Microsoft Clarity）
+
+閲覧分析のセットアップ手順: [docs/analytics-clarity.md](docs/analytics-clarity.md)
+
 ---
 
 
