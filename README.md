@@ -75,6 +75,16 @@ OmniPane Explorerは、無料の **Community版** から基本機能をお試し
 
 閲覧分析のセットアップ手順: [docs/analytics-clarity.md](docs/analytics-clarity.md)
 
+## SEO
+
+- `robots.txt` / `sitemap.xml` を配置済み
+- 各 HTML に canonical・Open Graph・Twitter Card を設定
+- トップに SoftwareApplication の JSON-LD を設置
+- 公開後: [Google Search Console](https://search.google.com/search-console) でプロパティ追加し、sitemap URL を送信
+
+Sitemap: `https://omnipaneexplorerproject.github.io/OmniPane-Web/sitemap.xml`
+
+
 ---
 
 
