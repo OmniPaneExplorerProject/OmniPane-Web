@@ -1,3 +1,5 @@
+[📁 OmniPane-Web](index.adoc)
+
 # OmniPane Explorer (OPE) 🚀
 
 **ファイル管理、テキスト編集、ターミナルを効率的に集約する統合型ワークスペース**
@@ -71,9 +73,10 @@ OmniPane Explorerは、無料の **Community版** から基本機能をお試し
 | [サポート](https://omnipaneexplorerproject.github.io/OmniPane-Web/support.html) | お問い合わせ・FAQ |
 | [プライバシーポリシー](https://omnipaneexplorerproject.github.io/OmniPane-Web/privacy.html) | 個人情報の取扱い |
 
-## サイト分析（Microsoft Clarity）
+## サイト分析
 
-閲覧分析のセットアップ手順: [docs/analytics-clarity.md](docs/analytics-clarity.md)
+- Microsoft Clarity: [docs/analytics-clarity.md](docs/analytics-clarity.md)
+- Google Analytics (`G-HSK1G1RRB9`): [docs/analytics-ga.md](docs/analytics-ga.md)
 
 ## SEO
 
