@@ -1,8 +1,10 @@
+[📁 video](index.adoc)
+
 # 紹介動画
 
 | ファイル | 用途 |
 |----------|------|
-| `workflow-demo-ja.mp4` | `index.html` — 作業の流れセクション（プロファイル切替 → 検索 → プレビュー） |
+| `workflow-demo-ja.mp4` | 専用再生ページ `demo.html`（Search Console 向け動画再生ページ）／トップ `index.html` にも埋め込み |
 
 - **poster**: `../screenshots/store-ja-05-preview.webp`（読み込み前のサムネイル）
 - 英語版を追加する場合: `workflow-demo-en.mp4`（将来）
