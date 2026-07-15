@@ -1,0 +1,11 @@
+include::_include.adoc[]
+
+= 📁 docs
+
+[discrete]
+== OmniPane-Web
+
+link:../index.adoc[📁 OmniPane-Web]
+
+* link:analytics-clarity.md[📄 analytics-clarity.md]
+* link:analytics-ga.md[📄 analytics-ga.md]
