@@ -1,5 +1,3 @@
-[📁 OmniPane-Web](index.adoc)
-
 # OmniPane Explorer (OPE) 🚀
 
 **ファイル管理、テキスト編集、ターミナルを効率的に集約する統合型ワークスペース**
