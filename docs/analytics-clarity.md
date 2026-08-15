@@ -1,3 +1,5 @@
+[📁 docs](index.adoc)
+
 # Microsoft Clarity（OmniPane-Web）
 
 公式サイトの閲覧分析に [Microsoft Clarity](https://clarity.microsoft.com/) を使います。

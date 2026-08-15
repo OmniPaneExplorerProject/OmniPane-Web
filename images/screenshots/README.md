@@ -1,3 +1,5 @@
+[📁 screenshots](index.adoc)
+
 # スクリーンショット
 
 | ファイル | 用途 |
